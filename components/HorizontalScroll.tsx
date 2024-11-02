@@ -26,16 +26,16 @@ export default function HorizontalScroll() {
   }, [])
 
   const totalImages = imagePaths.length
-  const imageWidth = 60 // vw
-  const imageGap = 10 // vw
-  const startEndPadding = 15 // vw
-  const containerWidth = totalImages * (imageWidth + imageGap) + 1.5 * startEndPadding
+  const imageWidth = 60 //width of the image
+  const imageGap = 10 // gap between images
+  const startEndPadding = 15 //padding left and right of the images
+  const containerWidth = totalImages * (imageWidth + imageGap) + 1.5 * startEndPadding // total horizontal width
 
   const translateX = -(scrollPosition / (document.documentElement.scrollHeight - window.innerHeight)) * (containerWidth - 100)
 
   return (
-    <div className="relative h-[550vh]">
-      <div className="sticky top-28 left-5 h-[calc(100vh-6rem)] overflow-hidden">
+    <div className="relative h-[550vh]"> {/* select height with ratio to the speed you want if you select more height horizontal scroll will take more time and vice versa */}
+      <div className="sticky top-28 left-5 h-[calc(100vh-6rem)] overflow-hidden"> {/* top value for distance from top and this height is height of the image */}
         <div
           ref={containerRef}
           className="flex transition-transform duration-300 ease-out absolute top-0 left-0"
