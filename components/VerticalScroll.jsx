@@ -12,7 +12,7 @@ const imagePaths = [
   "/Image1.jpg"
 ];
 
-export default function Content() {
+export default function VerticalScroll() {
   return (
     <div className="max-w-4xl mx-auto py-16 text-gray-900 dark:text-gray-100">
       {imagePaths.map((imagePath, index) => (
