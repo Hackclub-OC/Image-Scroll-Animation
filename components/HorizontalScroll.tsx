@@ -59,8 +59,8 @@ export default function HorizontalScroll() {
                   src={imagePath}
                   alt={`Image ${index + 1}`}
                   fill
-                  sizes="60vw"
-                  className="object-cover image-animation"
+                  // sizes="60vw"
+                  className="object-cover"
                   priority={index === 0}
                 />
               </div>
