@@ -1,16 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import "./style.css"; // Import the styles with image-animation keyframes
-
-const imagePaths = [
-  "/Image6.jpg",
-  "/Image5.jpg",
-  "/Image4.jpg",
-  "/Image3.jpg",
-  "/Image2.jpg",
-  "/Image1.jpg"
-];
+import "./style.css"; 
+import imagePaths from './constant.js';
 
 export default function VerticalScroll() {
   return (
