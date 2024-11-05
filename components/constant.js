@@ -1,0 +1,25 @@
+const imagePaths = [
+  "/Image1.jpg",
+  "/Image2.jpg",
+  "/Image3.jpg",
+  "/Image4.jpg",
+  "/Image5.jpg",
+  "/Image6.jpg",
+  "/Image8.jpg",
+  "/Image7.jpg",
+  "/Image13.jpg",
+  "/Image9.jpg",
+  "/Image14.jpg",
+  "/Image10.jpg",
+  "/Image15.jpg",
+  "/Image11.jpg",
+  "/Image17.jpg",
+  "/Image12.jpg",
+  "/Image18.jpg",
+  "/Image20.jpg",
+  "/Image19.jpg",
+  "/Image21.jpg",
+  "/Image22.jpg",
+];
+
+export default imagePaths;
