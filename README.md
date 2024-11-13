@@ -2,6 +2,7 @@
 This is an animation created with the experimental features of CSS along with JavaScript. I have created it using Nextjs but you can also do it just using vanilla javascript. 
 
 --- 
+
 The Size or the scale of the image increases as the image comes into the view and decreases as soon as it goes out of the view, you can use it for various things like your portfolio with the images of work you have done or you want to show image reviews. 
 
 The horizontal image view is created using various react and you can also customize it with the following properties. 
