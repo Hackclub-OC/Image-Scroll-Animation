@@ -22,7 +22,7 @@ export default function Navbar({ onToggleView }) {
   };
 
   return (
-    <nav className="fixed max-w-xl border border-black dark:border-white transition-colors duration-500 icon-transition w-full rounded-full mx-auto top-4 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 text-black dark:text-white p-2 flex items-center justify-between">
+    <nav className="fixed max-w-xl border backdrop-blur bg-white/50 dark:bg-black/50 border-black dark:border-white transition-colors duration-500 icon-transition w-full rounded-full mx-auto top-4 left-0 right-0 z-[100] text-black dark:text-white p-2 flex items-center justify-between">
       <h1 className="text-xl ml-4 font-mono">Image Scroll Animation</h1>
 
       <div className="flex items-center">
